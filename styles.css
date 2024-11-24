@@ -165,13 +165,17 @@ li
 
 /* About Section */
 .about {
-    padding: 4rem 5%;
-    background: var(--light-gray);
+    height: 100vh;
+    /* padding: 4rem 5%; */
+    background: var(--navBg);
 }
 
 .about h2 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
+    font-family: var(--headerFont);
+    font-weight: 600;
+    font-size: 10rem;
+    color: var(--textColor);
+    /* margin-bottom: 2rem; */
     opacity: 0;
 }
 
