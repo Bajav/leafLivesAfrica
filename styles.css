@@ -181,7 +181,7 @@ li
 }
 
 .about p {
-    max-width: 800px;
+    /* max-width: 800px; */
     margin-bottom: 1.5rem;
     line-height: 1.6;
     opacity: 0;
