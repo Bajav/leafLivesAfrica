@@ -199,9 +199,13 @@ span
 .about h2 {
     font-family: var(--headerFont);
     font-weight: 600;
-    font-size: 300px;
+    height: 40px;
+    width: 436px;
+    font-size: 130px;
     margin: -30px 0px 10px 20px;
     color: var(--textColor);
+    position: relative;
+    top: -30px;
     /* margin-bottom: 2rem; */
     opacity: 0;
 }
@@ -209,6 +213,8 @@ span
 .about p {
     max-width: 70rem;
     margin-bottom: 1.5rem;
+    position: relative;
+    top: 80px;
     line-height: 1.6;
     opacity: 0;
     margin-left: 20px;
