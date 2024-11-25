@@ -42,7 +42,7 @@ li
     justify-content: space-between;
     align-items: center;
     position: relative;
-    z-index: 1;
+    z-index: 4;
 }
 .nav-items
 {
@@ -96,12 +96,10 @@ li
     z-index: 2;
     width: 100%;
     padding: 10px;
-    background: blue;
+    /* background: blue; */
     height: 87vh;
     display: flex;
     top: -70px;
-    /* flex-direction: column; */
-    /* gap: 30px; */
 }
 .text
 {
@@ -125,11 +123,11 @@ li
 
 .heroimage
 {
-    width: 50%;
-    height: 103vh;
-    /* background: #333; */
-    margin-top: 40px;
+    width: 40%;
+    height: 97vh;
     border-radius: 7PX;
+    /* background-color: #2F2F2F; */
+    position: relative;
 }
 .heroimage img
 {
