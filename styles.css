@@ -281,9 +281,27 @@ span
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    gap: 15px;
+    background: var(--navBg);
+    height: 100vh;
+    padding: 10px;
     opacity: 0;
     transform: translateY(50px);
+}
+.projects h1
+{
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--textColor);
+    font-family: var(--headerFont);
+    font-size: 120px;
+    margin: 0;
+    padding: 0;
+}
+.projectImage
+{
+    width: 40%;
+    height: 70%;
 }
 
 .project-content {
@@ -292,18 +310,24 @@ span
 }
 
 .project-content h2 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-family: var(--textFont);
+    color: var(--textColor);
+    font-size: 50px;
+    text-align: start;
+    line-height: 45px;
+    margin-bottom: 30px;
 }
 
 .project-content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+    text-align: start;
+    font-family: var(--textFont);
+    color: var(--textColor);
+    font-size: 20px;
 }
 
 .project-image {
     width: 100%;
-    max-height: 500px;
+    height: 100%;
     object-fit: cover;
     border-radius: 1rem;
 }
