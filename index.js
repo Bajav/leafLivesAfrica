@@ -52,3 +52,15 @@ gsap.to('.about h2, .about p', {
     stagger: 0.2,
     ease: 'power4.out'
 });
+gsap.to('.project', {
+    scrollTrigger: {
+        trigger: '.project',
+        start: 'top center',
+        toggleActions: 'play none none reverse'
+    },
+    opacity: 1,
+    y: 0,
+    duration: 1,
+    stagger: 0.2,
+    ease: 'power4.out'
+});
