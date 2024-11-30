@@ -363,8 +363,83 @@ span
     color: var(--textColor);
     font-size: 20px;
 }
+.contactUs
+{
+    height: 60vh;
+    background: var(--pageBgColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactContainer
+{
+    border-radius: 3px;
+    height: 97%;
+    width: 99%;
+    background: var(--navBg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20em; */
+    width: 100%;
+    
+}
+.sideOne
+{
+    width: 50%;
+}
+.sideTwo
+{
+    width: 50%;
+}
+.sideOne h2
+{
+    font-family: var(--textFont);
+    font-size: 50px;
+    color: var(--textColor);
+    text-transform: uppercase;
+    margin:30px 0px 40px 30px;
+}
+.iconContainer
+{
+    border: 1px solid #1e1e1e;
+    padding: 3px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexCard
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.flexCard a
+{
+    color: var(--textColor);
+    text-decoration: none;
+    font-weight: 400;
+}
+.sideTwo h1
+{
+    font-family: var(--textFont);
+    text-transform: capitalize;
+    font-size: 40px;
+    color: var(--textColor);
 
-
+}
+.sideTwo a{
+    color: var(--textColor);
+    font-family: var(--textFont);
+    text-decoration: none;
+}
+.links-content
+{
+    margin-bottom: 10px;
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
     .navbar {
