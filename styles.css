@@ -440,6 +440,61 @@ span
 {
     margin-bottom: 10px;
 }
+/* founder */
+.founder
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: var(--navBg);
+    height: 100vh;
+    width: 100%;
+}
+.foundertext
+{
+    width: 50%;
+}
+.founderimages
+{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.imageContainer
+{
+    width: 70%;
+    border-radius: 10px;
+    height: 100%;
+}
+.imageContainer img
+{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.foundertext h1
+{
+    font-family: var(--textFont);
+    font-size: 40px;
+    color: var(--textColor);
+    margin-bottom: 20px;
+}
+.foundertext h4
+{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.foundertext p
+{
+    color: var(--textColor);
+    font-family: var(--textFont);
+    font-size: 12px;
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
     .navbar {
