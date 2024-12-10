@@ -511,10 +511,87 @@ span {
         line-height: 15px;
     }
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 889px) {
 .text h1 {
     font-size: 70px;
     line-height: 64px;
     margin-bottom: 49px;
+}
+.card p {
+  top: -22px;
+  font-size: 13px;
+}
+}
+@media screen and (max-width: 804px) {
+  .aboutImg {
+    top: 86px;}
+    .card p {
+      line-height: 13px;
+    }
+    .card {
+      height: 260px;
+    }
+    .project-content h2 {
+      font-size: 45px;
+    }
+    .project-content p {
+      font-size: 12px;
+  }
+}
+@media screen and (max-width: 778px) {
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 325px;
+}
+.nav-items
+{
+  gap:15px;
+}
+.nav-links {
+  padding: 4px 12px;
+  width: 203px;
+  justify-content: center;
+}
+.nav-links a {
+  font-size:12px;
+}
+}
+@media screen and (max-width: 754px) {
+  .navbar
+  {
+    gap:315px;
+  }
+  .text h1 {
+    font-size: 59px;
+    line-height: 55px;
+  }
+ .text p {
+    line-height: 15px;
+  }
+  .card p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 712px) {
+  .navbar {
+    gap: 45%;
+}
+.sideOne h2 {
+  margin: 30px 0px 25px 15px; 
+}
+}
+@media screen and (max-width: 696px) {
+  .about h2 {
+    font-size: 105px;
+    top: -35px;
+}
+.about p {
+  top: 35px;
+  font-size: 11px;
+}
+.aboutImg {
+  left:14px;
 }
 }
