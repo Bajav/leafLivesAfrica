@@ -373,7 +373,7 @@ span {
   font-size: 50px;
   color: var(--textColor);
   text-transform: uppercase;
-  margin: 30px 0px 40px 30px;
+  margin: 30px 0px 15px 30px;
 }
 .iconContainer {
   border: 1px solid #1e1e1e;
@@ -388,7 +388,7 @@ span {
   align-items: center;
   gap: 15px;
   margin-left: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .flexCard a {
   color: var(--textColor);
@@ -397,14 +397,16 @@ span {
 }
 .sideTwo h1 {
   font-family: var(--textFont);
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 40px;
   color: var(--textColor);
+  line-height: 40px;
 }
 .sideTwo a {
   color: var(--textColor);
   font-family: var(--textFont);
   text-decoration: none;
+  text-transform: capitalize;
 }
 .links-content {
   margin-bottom: 10px;
@@ -580,6 +582,34 @@ span {
 }
 .sideOne h2 {
   margin: 30px 0px 25px 15px; 
+}
+}
+@media screen and (max-width: 834px) {
+  .hero {
+    height: 55vh;
+  }
+  .heroimage {
+    height: 51vh;
+  }
+  .about {
+    height: 55vh;
+  }
+  .aboutImg {
+    height: 30vh;
+    top: 110px;
+  }
+  .mission {
+    height: 45vh;
+}
+.project {
+  height: 45vh;
+}
+.project-image
+{
+  height: 35vh;
+}
+.contactUs {
+  height: 30vh
 }
 }
 @media screen and (max-width: 696px) {
