@@ -200,35 +200,33 @@ span {
   font-family: var(--headerFont);
   font-weight: 600;
   height: 40px;
-  width: 436px;
+  width: 100;
+  text-align: center;
   font-size: 130px;
   color: var(--textColor);
   position: relative;
-  left: 20px;
 }
 .mission h3 {
   position: relative;
-  top: 100px;
-  left: 20px;
-  width: fit-content;
+  top: 110px;
+  text-align: center;
 }
 .mission-header {
   max-width: 95%;
   position: relative;
   top: 80px;
-  margin-top: 30px;
-  left: 25px;
+  text-align: center;
+  margin-top: 50px;
   font-size: 15px;
 }
 /* Mission Cards */
 .mission-cards {
   display: flex;
-  width: 90%;
+  width: 100%;
   gap: 20px;
-  justify-content: start;
+  justify-content: center;
   position: relative;
   top: 104px;
-  left: 20px;
 }
 .card {
   background: white;
@@ -240,7 +238,11 @@ span {
   opacity: 0;
   transform: translateY(50px);
 }
-
+span a
+{
+  color: #47872b;
+  font-weight: 600;
+}
 .card img {
   width: 100%;
   height: 150px;
@@ -254,6 +256,7 @@ span {
   top: -12px;
   left: 5px;
   margin-bottom: 15px;
+  text-align: start;
 }
 .card p {
     position: relative;
@@ -342,7 +345,7 @@ span {
   text-align: start;
   font-family: var(--textFont);
   color: var(--textColor);
-  font-size: 20px;
+  font-size: 15px;
 }
 .contactUs {
   height: 60vh;
@@ -394,6 +397,10 @@ span {
   color: var(--textColor);
   text-decoration: none;
   font-weight: 400;
+}
+.sideTwo .flexCard
+{
+  margin-left: 0;
 }
 .sideTwo h1 {
   font-family: var(--textFont);
