@@ -724,6 +724,10 @@ span a
  width: 100%;
  justify-content: space-evenly;
 }
+.projects h1 
+{
+  font-size: 90px;
+}
 .project-content 
 {
   max-width: 100%;
@@ -784,3 +788,18 @@ span a
   width: 190px;
 }
 }
+@media screen and (max-width: 375px)
+ {
+  .hero {
+    height: 95vh;
+}
+.about {
+  height: 90vh;
+}
+.mission {
+  height: 155vh;
+}
+.card {
+  width: 355px;
+}
+ }
