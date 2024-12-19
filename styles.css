@@ -21,6 +21,10 @@ li {
   margin: 0;
   padding: 0;
 }
+.mobile-hero
+{
+  display: none;
+}
 .Contact a {
   text-decoration: none;
   color: var(--textColor);
@@ -630,5 +634,74 @@ span a
 }
 .aboutImg {
   left:14px;
+}
+}
+@media screen and (max-width: 440px) 
+{
+  .hide
+  {
+    display: none;
+  }
+  .mobile-hero
+  {
+    display: block;
+    padding: 10px;
+  }
+  .hero
+  {
+    height: 100vh;
+  }
+.text {
+  width: 100%;
+  margin-bottom: 25px;
+  position: relative;
+  top: -20px;
+}
+.heroItems
+{
+  display: none;
+}
+.navbar {
+  gap: 10%;
+}
+.heroimage {
+  height: 30vh;
+  top: 0px;
+  width: 100%;
+}
+.about {
+  height: 85vh;
+}
+.about h2 
+{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.about p 
+{
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 25px;
+}
+.aboutImg {
+  left: 10px;
+}
+.mission {
+  height: 150vh;
+}
+.mission-header {
+  max-width: 99%;
+  }
+.mission-cards
+{
+  flex-direction: column;
+  align-items: center;
+}
+.card 
+{
+  width: 435px;
+  height: 240px;
 }
 }
