@@ -7,6 +7,13 @@
   box-sizing: border-box;
   font-family: system-ui, -apple-system, sans-serif;
 }
+body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100vw;
+}
 
 :root {
   --spanTextColor: #47872b;
@@ -679,6 +686,8 @@ span a
 {
   text-align: center;
   margin-bottom: 10px;
+    margin-left: 0;
+    width: auto;
 }
 .about p 
 {
@@ -722,5 +731,56 @@ span a
 .projectImage {
   width: 100%;
   height: 8vh;
+}
+.contactUs {
+  height: 90vh;
+}
+.contactContainer 
+{
+  flex-direction: column;
+  align-items: baseline;
+  padding: 10px;
+}
+.sideOne {
+  width: 100%;
+}
+.sideOne h2 {
+  margin: 0px 0px 20px 0px;
+}
+.flexCard
+ {
+  margin-left: 0px;
+ }
+.sideTwo {
+  width: 100%;
+}
+.sideTwo h1 
+{
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 414px) 
+{
+  .logo
+  {
+    width: 30px;
+  }
+  .hero {
+    height: 85vh;
+  }
+  .card {
+    width: 370px;
+}
+/* .mission {
+  height: 135vh
+} */
+.Contact a 
+{
+  font-size: 12px;
+}
+.nav-links {
+  width: 190px;
 }
 }
