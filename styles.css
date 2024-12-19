@@ -646,10 +646,12 @@ span a
   {
     display: block;
     padding: 10px;
+    width: 100%;
   }
   .hero
   {
     height: 100vh;
+    width: 100%;
   }
 .text {
   width: 100%;
@@ -671,6 +673,7 @@ span a
 }
 .about {
   height: 85vh;
+  width: 100%;
 }
 .about h2 
 {
@@ -690,6 +693,7 @@ span a
 }
 .mission {
   height: 150vh;
+  width: 100%;
 }
 .mission-header {
   max-width: 99%;
@@ -708,6 +712,7 @@ span a
   height: 100vh;
   flex-direction: column;
  align-items: start;
+ width: 100%;
  justify-content: space-evenly;
 }
 .project-content 
