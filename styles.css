@@ -829,3 +829,21 @@ span a
   width: 355px;
 }
  }
+ @media screen and (max-width: 360px)
+ {
+  .about {
+    height: 97vh;
+}
+.navbar
+{
+  padding: 1rem 2%;
+  gap: 5%;
+}
+.aboutImg 
+{
+  width: 95%;
+}
+.card {
+  width: 340px;
+}
+ }
