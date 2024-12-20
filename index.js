@@ -1,6 +1,3 @@
-gsap.registerPlugin(ScrollTrigger);
-
-// Navbar animation
 gsap.to('.navbar', {
     y: 0,
     duration: 1,
