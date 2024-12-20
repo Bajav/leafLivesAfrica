@@ -96,7 +96,7 @@
       </div>
     </section>
 
-    <section class="mission">
+    <section class="mission" id="missions">
       <h1>MISSION</h1>
       <h3>“Empowering a Hunger-Free Future, One Leaf One Life”</h3>
       <p class="mission-header">
@@ -296,8 +296,21 @@ let date = new Date();
 let year  = date.getFullYear();
 let rightsMessage = `all rights reserved by leaf lives africa ${year}`;
 rights.innerHTML = rightsMessage;
-console.log(rightsMessage);
-gsap.registerPlugin(ScrollTrigger);
+// console.log(rightsMessage);
+// console.log(document.documentElement.clientHeight);
+// console.log(document.documentElement.clientWidth);
+const height = document.documentElement.clientHeight;
+const width = document.documentElement.clientHeight;
+const home = document.getElementById("home");
+const about = document.getElementById("about");
+const missions = document.getElementById("missions");
+const projects = document.getElementById("projects");
+const contactUs = document.getElementById("contactUs");
+
+if(height === 712)
+{
+  missions.style.height = 150 + "vh";
+}
 // Navbar animation
     </script>
     <script src="./index.js"></script>
