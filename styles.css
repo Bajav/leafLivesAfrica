@@ -21,6 +21,7 @@ body
   --headerFont: "Bebas Neue", serif;
   --textFont: "Poppins", sans-serif;
   --navBg: #fff;
+  --headerColor:#D8EC7D;
 }
 li {
   list-style: none;
@@ -86,13 +87,13 @@ li {
 }
 
 .nav-links a:hover {
-  color: var(--primary-green);
+  color: var(--spanTextColor);
 }
 
 /* Hero Section */
 .hero {
   height: 105vh;
-  background: var(--pageBgColor);
+  background: var(--navBg);
   display: flex;
   flex-direction: column;
 }
@@ -204,7 +205,7 @@ span {
 }
 .mission {
   height: 100vh;
-  background: var(--pageBgColor);
+  background: var(--navBg);
 }
 .mission h1 {
   font-family: var(--headerFont);
@@ -275,23 +276,12 @@ span a
   font-size: 14px;
   left: 0;
 }
-/* projects */
-/* .projects-container
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-/* .text-Side
-{
-    background: var(--textColor);
-    width: 50%;
-} */
 .project {
-  background: var(--navBg);
-  height: 100vh;
-  padding: 10px;
+  background: var(--headerColor);
+  height: 90vh;
+  width: 98%;
+  padding: 30px;
+  border-radius: 20px;
   opacity: 0;
   transform: translateY(50px);
   display: flex;
@@ -299,8 +289,12 @@ span a
   justify-content: center;
   align-items: center;
   gap: 20px;
-  /* flex-direction: column; */
-  /* background: var(--textColor); */
+}
+.text-Side
+{
+  display: flex;
+ flex-direction: column;
+  align-items: center
 }
 .projects h1 {
   text-align: center;
@@ -344,7 +338,7 @@ span a
 
 .project-content h2 {
   font-family: var(--textFont);
-  color: var(--textColor);
+  color: var(--spanTextColor);
   font-size: 50px;
   text-align: start;
   line-height: 45px;
@@ -378,10 +372,11 @@ span a
   padding-bottom: 30px;
   text-transform: capitalize;
   font-size: 12px;
+  color: var(--headerColor);
 }
 .contactContainer {
   border-radius: 3px;
-  background: var(--navBg);
+  background: #122D1D;
   width: 97vw;
   height: 96%;
 }
@@ -394,12 +389,12 @@ span a
 .sideOne h2 {
   font-family: var(--textFont);
   font-size: 50px;
-  color: var(--textColor);
+  color: var(--headerColor);
   text-transform: uppercase;
   margin: 30px 0px 15px 30px;
 }
 .iconContainer {
-  border: 1px solid #1e1e1e;
+  border: 1px solid #D8EC7D;
   padding: 3px;
   border-radius: 5px;
   display: flex;
@@ -414,7 +409,13 @@ span a
   margin-bottom: 10px;
 }
 .flexCard a {
-  color: var(--textColor);
+  color: var(--headerColor);
+  text-decoration: none;
+  font-weight: 400;
+}
+.flexCard li
+{
+  color: var(--headerColor);
   text-decoration: none;
   font-weight: 400;
 }
@@ -423,14 +424,14 @@ span a
   margin-left: 0;
 }
 .sideTwo h1 {
-  font-family: var(--textFont);
+  font-family: var(--headerColor);
   text-transform: uppercase;
   font-size: 40px;
-  color: var(--textColor);
+  color: var(--headerColor);
   line-height: 40px;
 }
 .sideTwo a {
-  color: var(--textColor);
+  color: var(--headerColor);
   font-family: var(--textFont);
   text-decoration: none;
   text-transform: capitalize;
