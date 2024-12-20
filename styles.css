@@ -748,7 +748,7 @@ span a
 .contactUs {
   height: 90vh;
 }
-.contactContainer 
+.sidesContainer 
 {
   flex-direction: column;
   align-items: baseline;
