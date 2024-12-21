@@ -851,3 +851,17 @@ span a
   width: 340px;
 }
  }
+ @media screen and (max-width: 320px)
+ {
+  .card {
+    width: 320px;
+}
+.contactContainer {
+  border-radius: 10px;
+  width: 102vw;
+}
+.mission
+{
+  height: 125vh;
+}
+ }
