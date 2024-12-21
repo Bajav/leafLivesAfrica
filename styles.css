@@ -860,8 +860,17 @@ span a
   border-radius: 10px;
   width: 102vw;
 }
-.mission
+.contactUs {
+  height: 150vh;
+  position: relative;
+}
+.projects {
+  background: var(--headerColor);
+  position: relative;
+  height: 3500px;
+}
+.project
 {
-  height: 125vh;
+  height: 110vh;
 }
  }
