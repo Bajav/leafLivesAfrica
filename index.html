@@ -306,6 +306,7 @@ const about = document.getElementById("about");
 const missions = document.getElementById("missions");
 const projects = document.getElementById("projects");
 const contactUs = document.getElementById("contactUs");
+const cards = document.getElementsByClassName("card");
 
 if(height === 712)
 {
@@ -336,6 +337,13 @@ if(height === 673)
 if(height === 755)
 {
   missions.style.height = 125 + "vh";
+}
+if(height === 663)
+{
+  missions.style.height = 145 +"vh";
+  for(let i = 0; i<cards.length; i++){
+    cards[i].style.width = 380 + "px";
+  }
 }
 // Navbar animation
     </script>

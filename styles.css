@@ -833,6 +833,15 @@ span a
   width: 355px;
 }
  }
+ @media screen and (max-width: 375px)
+ {
+  .card {
+    width: 375px;
+  }
+  .about {
+    height: 95vh;
+}
+ }
  @media screen and (max-width: 360px)
  {
   .about {
