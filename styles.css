@@ -542,16 +542,59 @@ span a
     }
 }
 @media screen and (max-width: 889px) {
+  .text h1 {
+      font-size: 70px;
+      line-height: 64px;
+      margin-bottom: 49px;
+  }
+  .card p {
+    top: -22px;
+    font-size: 13px;
+  }
+  }
+@media screen and (max-width: 884px) {
+  .heroItems 
+  {
+    height: 60vh;
+  }
+  .heroimage {
+    height: 58vh;
+    top: -1px;
+}
 .text h1 {
-    font-size: 70px;
-    line-height: 64px;
-    margin-bottom: 49px;
+  margin-bottom: 200px;
 }
-.card p {
-  top: -22px;
-  font-size: 13px;
+.hero {
+  height: 65vh;
 }
+.about {
+  height: 55vh;
 }
+.aboutImg {
+  height: 30vh;
+}
+.card 
+{
+  width: 275px;
+}
+.mission {
+  height: 55vh;
+}
+.project {
+  height: 40vh;
+}
+.projectImage {
+  height: 35vh;
+}
+.contactUs {
+  height: 35vh;
+}
+.sidesContainer 
+{
+  height: 90%;
+}
+  }
+
 @media screen and (max-width: 834px) {
   .hero {
     height: 55vh;
@@ -607,7 +650,7 @@ span a
   }
   .text h1 
   {
-    margin-bottom: 150px;
+    margin-bottom: 110px;
   }
 }
 @media screen and (max-width: 804px) {
@@ -618,6 +661,24 @@ span a
     }
     .card {
       height: 260px;
+    }
+    .about {
+      height: 45vh;
+    }
+    .aboutImg {
+      top: 100px;
+      height: 23vh;
+  }
+  .mission {
+    height: 45vh;
+  }
+    .project 
+    {
+      height: 30vh;
+    }
+    .project-image 
+    {
+      height: 28vh;
     }
     .project-content h2 {
       font-size: 45px;
