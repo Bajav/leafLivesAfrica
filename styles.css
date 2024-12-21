@@ -587,6 +587,34 @@ span a
 .nav-links a {
   font-size:12px;
 }
+.sideTwo h1
+{
+  font-size: 35px;
+}
+.sideOne h2 
+{
+  font-size: 45px;
+}
+.sideTwo a 
+{
+  font-size: 12px;
+}
+.flexCard a 
+{
+  font-size: 12px;
+}
+.flexCard li 
+{
+  font-size: 12px;
+}
+#rights 
+{
+  font-size: 10px;
+}
+.text h1 
+{
+  margin-bottom: 65px;
+}
 }
 @media screen and (max-width: 754px) {
   .navbar

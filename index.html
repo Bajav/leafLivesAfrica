@@ -294,7 +294,7 @@
       let rights = document.getElementById("rights");
 let date = new Date();
 let year  = date.getFullYear();
-let rightsMessage = `all rights reserved by leaf lives africa ${year}`;
+let rightsMessage = `© all rights reserved by leaf lives africa ${year}`;
 rights.innerHTML = rightsMessage;
 // console.log(rightsMessage);
 console.log(document.documentElement.clientHeight);
@@ -308,6 +308,11 @@ const projects = document.getElementById("projects");
 const contactUs = document.getElementById("contactUs");
 const cards = document.getElementsByClassName("card");
 
+if(height === 935)
+{
+  missions.style.height = 60 + "vh";
+  about.style.height = 65 + "vh";
+}
 if(height === 827)
 {
   missions.style.height = 125 + "vh";
