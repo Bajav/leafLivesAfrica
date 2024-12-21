@@ -552,6 +552,64 @@ span a
   font-size: 13px;
 }
 }
+@media screen and (max-width: 834px) {
+  .hero {
+    height: 55vh;
+  }
+  .heroItems {
+    height: 75vh;
+  }
+  .heroimage {
+    height: 46vh;
+    top: -1px;
+  }
+  .about {
+    height: 55vh;
+  }
+  .aboutImg {
+    height: 30vh;
+    top: 110px;
+  }
+  .mission {
+    height: 55vh;
+}
+.text h1 
+{
+  margin-bottom: 90px;
+}
+.card 
+{
+  width: 240px;
+}
+.project {
+  height: 45vh;
+}
+.project-image
+{
+  height: 35vh;
+}
+.contactUs {
+  height: 30vh
+}
+}
+@media screen and (max-width: 820px) 
+{
+  .mission
+  {
+    height: 55vh;
+  }
+  .mission-cards 
+  {
+    gap:10px;
+  }
+  .card {
+    width: 30%;
+  }
+  .text h1 
+  {
+    margin-bottom: 150px;
+  }
+}
 @media screen and (max-width: 804px) {
   .aboutImg {
     top: 86px;}
@@ -638,34 +696,6 @@ span a
 }
 .sideOne h2 {
   margin: 30px 0px 25px 15px; 
-}
-}
-@media screen and (max-width: 834px) {
-  .hero {
-    height: 55vh;
-  }
-  .heroimage {
-    height: 51vh;
-  }
-  .about {
-    height: 55vh;
-  }
-  .aboutImg {
-    height: 30vh;
-    top: 110px;
-  }
-  .mission {
-    height: 45vh;
-}
-.project {
-  height: 45vh;
-}
-.project-image
-{
-  height: 35vh;
-}
-.contactUs {
-  height: 30vh
 }
 }
 @media screen and (max-width: 696px) {
