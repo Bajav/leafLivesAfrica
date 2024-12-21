@@ -854,7 +854,7 @@ span a
 }
 .card 
 {
-  width: 435px;
+  width: 95%;
   height: 240px;
 }
 .projects
@@ -912,6 +912,18 @@ span a
   font-size: 35px;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 430px) 
+{
+  .hero {
+    height: 85vh;
+}
+.about {
+  height: 70vh;
+}
+.mission {
+  height: 120vh;
 }
 }
 @media screen and (max-width: 414px) 
