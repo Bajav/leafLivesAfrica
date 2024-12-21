@@ -874,3 +874,15 @@ span a
   height: 110vh;
 }
  }
+ @media screen and (max-width: 428px)
+ {
+  .card {
+    width: 415px;
+    height: 230px;
+}
+.mission-header {
+  max-width: 92%;
+  position: relative;
+  left: 13px;
+}
+ }
