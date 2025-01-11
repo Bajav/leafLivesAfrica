@@ -6,7 +6,7 @@ const footer = document.getElementById("footer");
 
 
 burger.addEventListener("click", (e) => {
-  console.log("burger clicked");
+  // console.log("burger clicked");
   for (let i = 0; i < nav.length; i++) {
     nav[i].style.transform = "translateY(0%)";
     document.getElementsByTagName("body")[0].style.overflow = "hidden";
@@ -17,11 +17,11 @@ for (let i = 0; i < navLi.length; i++) {
     nav.forEach((navItem) => {
       navItem.style.transform = "translateY(-100%)";
     });
-    document.body.style.overflow = "auto"; // Reset body scrolling
+    document.body.style.overflow = "auto"; 
   });
 }
 closeNav.addEventListener("click", (e) => {
-  console.log("clicked");
+  // console.log("clicked");
   for (let i = 0; i < nav.length; i++) {
     nav[i].style.transform = "translateY(-100%)";
     document.getElementsByTagName("body")[0].style.overflow = "auto";
@@ -35,8 +35,8 @@ footer.innerHTML = `© all rights reserved by leaf lives africa ${year}`;
 
 const width = window.innerWidth;
 const height = window.innerHeight;
-console.log(`width is ${width}, height is ${height}`);
-console.log(width,height)
+// console.log(`width is ${width}, height is ${height}`);
+// console.log(width,height)
 const hero = document.getElementById("hero");
 const about = document.getElementById("about");
 const founder = document.getElementById("founder");
@@ -71,7 +71,7 @@ gsap.to(".about-container", {
     start: "top 10%",
     end: "bottom 90%",
     toggleActions: "play none reverse none",
-    markers: true
+    // markers: true
   },
   y: 0,
   opacity: 1,
@@ -84,7 +84,7 @@ gsap.to(".missionTextConatiner h1", {
     start: "top 10%",
     end: "bottom 65%",
     toggleActions: "play none reverse none",
-    markers: true
+    // markers: true
   },
   y: 0,
   opacity: 1,
@@ -97,7 +97,7 @@ gsap.to(".missionTextConatiner h4", {
     start: "top 10%",
     end: "bottom 65%",
     toggleActions: "play none reverse none",
-    markers: true
+    // markers: true
   },
   x: 0,
   opacity: 1,
@@ -110,7 +110,7 @@ gsap.to(".missionTextConatiner p", {
     start: "top 10%",
     end: "bottom 65%",
     toggleActions: "play none reverse none",
-    markers: true,
+    // markers: true,
   },
   x: 0,
   opacity: 1,
@@ -128,7 +128,7 @@ gsap.to(".metric", {
 const countOne = document.querySelector(".metric h3");
         createOdometer(countOne, 30);
       },
-      markers: true
+      // markers: true
     },
     y: 0,
     opacity: 1,
@@ -141,7 +141,7 @@ const countOne = document.querySelector(".metric h3");
       start: "top 10%",
       end: "bottom 65%",
       toggleActions: "play none reverse none",
-      markers: true,
+      // markers: true,
     },
     x: 0,
     opacity: 1,
@@ -156,7 +156,7 @@ const countOne = document.querySelector(".metric h3");
       start: "top 10%",
       end: "bottom 90%",
       toggleActions: "play none reverse none",
-      markers: true,
+      // markers: true,
     },
     y: 0,
     opacity: 1,
@@ -170,7 +170,7 @@ const countOne = document.querySelector(".metric h3");
       start: "top 10%",
       end: "bottom 90%",
       toggleActions: "play none reverse none",
-      markers: true,
+      // markers: true,
     },
     x: 0,
     opacity: 1,
