@@ -110,6 +110,10 @@ gsap.to(".missionTextConatiner p", {
     start: "top 10%",
     end: "bottom 65%",
     toggleActions: "play none reverse none",
+    onEnter: () => {
+        const p = document.querySelector(".missionTextConatiner p ");
+        p.style.display="block";
+            },
     // markers: true,
   },
   x: 0,
@@ -141,6 +145,10 @@ const countOne = document.querySelector(".metric h3");
       start: "top 10%",
       end: "bottom 65%",
       toggleActions: "play none reverse none",
+      onEnter: () => {
+        const card = document.querySelector(".mission-cards");
+        card.style.display="block";
+            },
       // markers: true,
     },
     x: 0,

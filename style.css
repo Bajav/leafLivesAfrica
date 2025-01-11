@@ -322,6 +322,7 @@ header
     font-weight: 350;
     font-family: var(--fontPoppins);
     transform: translateX(135%);
+    display: none;
 }
 /* metrics */
 .metrics-container
@@ -388,6 +389,7 @@ header
         width: 98vw;
         padding: 10px 0px;
         transform: translateX(105%);
+        display: none;
 }
 .mission-card
 {
