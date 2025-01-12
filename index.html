@@ -8,10 +8,8 @@
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaQueries.css" />
     <link
@@ -291,7 +289,8 @@
       </div>
 
       <div class="metrics-container">
-        <div class="metricOne">
+
+        
           <div class="metric">
             <div class="flex-txt">
               <h3>150</h3>
@@ -305,8 +304,8 @@
             </div>
             <h4>families uplifted</h4>
           </div>
-        </div>
-        <div class="metricOne">
+       
+
           <div class="metric">
             <div class="flex-txt">
               <h3>9.5</h3>
@@ -321,7 +320,7 @@
             </div>
             <h4>trees planted</h4>
           </div>
-        </div>
+
       </div>
       <div class="mission-cards">
         <div class="mission-card">
@@ -343,7 +342,7 @@
             <h2>Grow Hope</h2>
           </div>
           <p>
-            Developing innovative <br />solutions to address food <br />
+            Developing innovative solutions to address food 
             insecurity and malnutrition.
           </p>
         </div>
@@ -421,7 +420,7 @@
             <h2>Nourish Communities</h2>
           </div>
           <p>
-            Providing access to <br />wholesome food, education, <br />
+            Providing access to wholesome food, education, 
             and resources.
           </p>
         </div>
@@ -463,9 +462,9 @@
             <h2>Thrive Together</h2>
           </div>
           <p>
-            Fostering collaborative partnerships,<br />
-            promoting environmental <br />
-            stewardship, and empowering <br />marginalized groups.
+            Fostering collaborative partnerships,
+            promoting environmental 
+            stewardship, and empowering marginalized groups.
           </p>
         </div>
       </div>
@@ -554,8 +553,7 @@
             </div>
             <h4>assistant Director</h4>
             <p>
-              Dedicated to driving impactful results, I serve as a strong
-              support system for Leaf Lives Africa, turning innovative ideas
+              Dedicated to driving impactful results, turning innovative ideas
               into reality to achieve our mission and create lasting change.
             </p>
           </div>
@@ -650,42 +648,47 @@
               between human activity and nature.
             </p>
           </div>
+
         </div>
       </div>
     </section>
     <section class="gallery" id="gallery">
       <h1>gallery</h1>
-      <p></p>
-      <swiper-container
-        class="mySwiper"
-        id="mySwiper"
-        pagination="true"
-        pagination-clickable="true"
-        navigation="true"
-        space-between="30"
-        centered-slides="true"
-        autoplay-delay="2500"
-        autoplay-disable-on-interaction="false"
-      >
-        <swiper-slide>
-          <img src="./images/smallOne.jpg" alt="" />
-        </swiper-slide>
-        <swiper-slide>
-          <img src="./images/cleanAir.jpg" alt="" />
-        </swiper-slide>
-        <swiper-slide>
-          <img src="./images/smallTwo.jpg" alt="" />
-        </swiper-slide>
-        <swiper-slide>
-          <img src="./images/women.jpg" alt="" />
-        </swiper-slide>
-        <div class="autoplay-progress" slot="container-end">
-          <svg viewBox="0 0 48 48">
-            <circle cx="24" cy="24" r="20"></circle>
-          </svg>
-          <span></span>
+      <p>enriching lives through restoration .</p>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/001.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/greenUrban.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/women.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/youth.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/meetTeamBg.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/cleanAir.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/water is life.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/Permaculture College Australia.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/smallTwo.jpg" alt="">
+          </div>
         </div>
-      </swiper-container>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
     <section class="projects" id="projects">
       <h1>projects</h1>
@@ -831,14 +834,14 @@
         </div>
       </div>
     </section>
-    <section class="contactUs">
+    <section class="contactUs" id="contact">
       <div class="contactUsContainer">
         <div class="contactUs-content">
           <div class="main">
             <div class="mainMission">
               <h3>Our Mission</h3>
               <p>
-                At Leaf Lives Africa we're passionate about nourishing people
+                At Leaf Lives Africa we're passionate about nourishing people
                 and the planet. Our mission is to revolutionize food systems,
                 combat hunger, and promote sustainable living. We believe that
                 every individual deserves access to nutritious food, clean
@@ -927,6 +930,6 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   ></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./index.js"></script>
 </html>

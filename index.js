@@ -3,6 +3,44 @@ const closeNav = document.getElementById("close");
 const nav = document.querySelectorAll(".navLinksTwoContainer");
 const navLi = document.getElementsByClassName("link");
 const footer = document.getElementById("footer");
+const pCard = document.querySelectorAll(".teamCard p");
+const teamCard = document.getElementsByClassName("teamCard");
+// window.onload = () => {
+//   for (let i = 0; i < pCard.length; i++) {
+//     const height = pCard[i].offsetHeight;
+//     console.log(`Height of element ${i}: ${height}px`);
+
+//     if (height > 60) {
+//       for (let j = 0; j < teamCard.length; j++) {
+//         teamCard[j].style.height = "430px";
+//       }
+//     } else if (height < 40) {
+//       for (let j = 0; j < teamCard.length; j++) {
+//         teamCard[j].style.height = "400px";
+//       }
+//       for (let j = 0; j < teamCard.length; j++) {
+//         teamCard[j].style.height = "400px";
+//       }
+//     }
+//   }
+// };
+
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 
 
 burger.addEventListener("click", (e) => {
@@ -35,15 +73,13 @@ footer.innerHTML = `© all rights reserved by leaf lives africa ${year}`;
 
 const width = window.innerWidth;
 const height = window.innerHeight;
-// console.log(`width is ${width}, height is ${height}`);
-// console.log(width,height)
+console.log(`width is ${width}, height is ${height}`);
+console.log(width,height)
 const hero = document.getElementById("hero");
 const about = document.getElementById("about");
 const founder = document.getElementById("founder");
 const gallery = document.getElementById("gallery");
-const mySwiper = document.getElementById("mySwiper");
 const teamCardImage = document.querySelectorAll(".teamCardImage");
-const teamCard = document.querySelectorAll(".teamCard");
 const textSide = document.querySelectorAll(".text-side");
 const createOdometer = (el, value) => {
   const odometer = new Odometer({
@@ -147,7 +183,7 @@ const countOne = document.querySelector(".metric h3");
       toggleActions: "play none reverse none",
       onEnter: () => {
         const card = document.querySelector(".mission-cards");
-        card.style.display="block";
+        // card.style.display="block";
             },
       // markers: true,
     },
@@ -227,14 +263,6 @@ const showNextSlide = () => {
 
 setInterval(showNextSlide, slideDuration);
 
-const progressCircle = document.querySelector(".autoplay-progress svg");
-    const progressContent = document.querySelector(".autoplay-progress span");
-    const swiperEl = document.querySelector("swiper-container");
-    swiperEl.addEventListener("autoplaytimeleft", (e) => {
-      const [swiper, time, progress] = e.detail;
-      progressCircle.style.setProperty("--progress", 1 - progress);
-      progressContent.textContent = `${Math.ceil(time / 1000)}s`;
-    });
 
 
     // navClick
