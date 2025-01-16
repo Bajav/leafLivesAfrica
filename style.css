@@ -522,7 +522,7 @@ header
 .teamCards
 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1%;
     width: 98%;
     /* justify-self: center;
@@ -618,6 +618,13 @@ header
 .jane
 {
     background: url(./images/kwagala.jpg);
+    background-position:center top 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.andrew
+{
+    background: url(./images/image\ 7.png);
     background-position:center top 0px;
     background-repeat: no-repeat;
     background-size: cover;
