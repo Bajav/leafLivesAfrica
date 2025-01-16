@@ -1065,7 +1065,10 @@ height: 70vh;
     width: 100%;
   }
   .founder {
-    height: 112vh;
+    height: 115vh;
+}
+.about {
+  height: 46vh;
 }
 }
   /* 360 x 880 */
