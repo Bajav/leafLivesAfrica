@@ -463,6 +463,7 @@ header
     font-weight: 400;
     text-transform: capitalize;
     letter-spacing: 1px;
+    color: var(--spanTextColor);
     font-family: var(--fontpoltawski);
 }
 .founder-text p
