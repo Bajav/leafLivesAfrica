@@ -452,6 +452,11 @@ header
 {
     width: 50%;
 }
+.founder-text a
+{
+    color: var(--spanTextColor);
+    text-decoration: underline;
+}
 .founder-text h1
 {
     font-size: 20px;
