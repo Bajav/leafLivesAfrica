@@ -601,7 +601,7 @@ header
 }
 .angel
 {
-    background: url(./images/angel.jpg);
+    background: url(./images/angelNew.jpg);
     background-position:center top 0px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -683,6 +683,15 @@ header
 .gallery
 {
     background: var(--heroBG);
+}
+.isaacImg
+{
+    background-image: url(./images/isaacYoung.jpg);
+    background-position: top 5% right 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
 .gallery h1
 {
