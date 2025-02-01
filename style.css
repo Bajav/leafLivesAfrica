@@ -526,12 +526,13 @@ header
 .teamCards
 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 1%;
     width: 98%;
-    /* justify-self: center;
-    align-self: center; */
+     justify-self: center;
+    /* align-self: center; */
     height: 70%;
+    /* justify-items: center; */
 }
 .teamCard
 {
