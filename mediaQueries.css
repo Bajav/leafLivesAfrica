@@ -528,6 +528,10 @@ height: 55vh;
   {
     display: none;
   }
+  .hideMe
+{
+    display: block;
+}
   .contactUs-content {
     justify-content: space-evenly;
 }

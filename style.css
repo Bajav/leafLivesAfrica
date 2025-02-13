@@ -919,6 +919,10 @@ header
     text-transform: capitalize;
     margin-bottom: 10px;
 }
+.hideMe
+{
+    display: none;
+}
 .contactflex
 {
     display: flex;
