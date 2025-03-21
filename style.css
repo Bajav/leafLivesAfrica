@@ -962,3 +962,102 @@ ul
     text-align: center;
     text-transform: capitalize;
 }
+.partners
+{
+    /* height: 40vh; */
+    padding: 10px;
+    /* background: red; */
+}
+.partnerContainer
+{
+    background: var(--metricCradBg);
+    /* padding: 5%; */
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.partnerContainer h1
+{
+    font-family: var(--fontBebas);
+    text-transform: capitalize;
+    font-size: 50px;
+    text-align: center;
+    color: var(--normalTextColor);
+}
+.grid-item {
+    /* background-color: #ffffff; */
+    /* border: 1px solid #e0e0e0; */
+    /* 8px */
+    border-radius: 0.5rem;
+    padding-block-end: 2.5rem;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    padding-top: 2rem;
+    position: relative;
+  }
+  
+  /* Estilo del contenedor del carrusel */
+  .carousel-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Contenido del carrusel */
+  .carousel-content {
+    display: flex;
+    animation: scroll 50s linear infinite;
+    gap: 20px;
+  }
+  
+  /* Cada elemento del carrusel */
+  .carousel-item {
+    min-width: 200px;
+    height: 150px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Animación para el scroll automático */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .car-sec {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    place-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    opacity: 1;
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0) 0%,
+      rgb(0, 0, 0) 12.5%,
+      rgb(0, 0, 0) 87.5%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    overflow: hidden;
+  }
+  
