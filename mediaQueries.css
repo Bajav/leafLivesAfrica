@@ -189,6 +189,8 @@
   }
 }
 
+
+
 @media (min-width: 1280px) and (min-height: 765px) {
   .hero {
     height: 94vh;
@@ -257,6 +259,11 @@
 @media (max-width: 1025px) and (min-height: 600px) {
   .hero {
     height: 100vh;
+  }
+}
+@media (max-width: 1025px) and (min-height: 1306px) {
+  .hero {
+    height: 50vh;
   }
 }
 @media only screen and (max-width: 970px) {
@@ -410,8 +417,9 @@
     margin-top: 30%;
   }
   .teamCard {
-    height: 380px;
+    height: 465px;
   }
+  /* .team */
   .contactUs-content {
     height: 25vh;
   }
@@ -424,7 +432,13 @@
   .contactUs-content {
     height: 40vh;
   }
+  .team-container 
+  {
+    padding: 10px;
+  }
 }
+
+
 @media (max-width: 884px) and (max-height: 700px) {
   .hero {
     height: 100vh;
@@ -490,7 +504,7 @@
     gap: 1%;
   }
   .teamCardImage {
-    height: 62%;
+    height: 75%;
   }
   .main {
     max-width: 50%;
@@ -707,6 +721,15 @@
     align-items: center;
     padding-bottom: 10%;
   }
+  
+.team-container 
+{
+  padding-bottom: 50%;
+}
+.nodetails .teamCardImage {
+    height: 85%;
+}
+
   .mission-card p {
     font-size: 20px;
     line-height: 25px;
@@ -715,10 +738,13 @@
     /* width: 80%; */
     align-self: center;
     justify-self: center;
+    height: 500px;
   }
-  .teamCard {
-    height: 400px;
-  }
+
+  .nodetails
+{
+  height: 450px;
+}
   .founder-container {
     flex-direction: column-reverse;
     align-items: center;
@@ -868,7 +894,7 @@
     padding: 5px 0px 160px 0px;
   }
   .teamCards {
-    padding-bottom: 20%;
+    padding-bottom: 30%;
   }
   .teamCard {
     width: 95%;
