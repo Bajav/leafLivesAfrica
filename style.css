@@ -599,6 +599,32 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.ezra {
+  background: url(./images/ezra.jpg);
+  background-position: center top -10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.akut {
+  background: url(./images/akut.jpg);
+  background-position: center top -5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nakandi {
+  background: url(./images/nakandi.jpg);
+  background-position: center top 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.queen {
+  background: url(./images/queen.jpg);
+  background-position: center top 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .noprofile {
   background: url(./images/noprofile.jpeg);
   background-position: center top 0px;
@@ -606,11 +632,11 @@ header {
   background-size: cover;
 }
 .nodetails{
-    height: 300px;
+    height: 390px;
 }
 .nodetails .teamCardImage
 {
-    height: 85%;
+    height: 82%;
 }
 .teamCardImage img {
   width: 100%;
