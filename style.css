@@ -1028,3 +1028,23 @@ ul {
   );
   overflow: hidden;
 }
+
+/* documentary */
+.documentary{
+  background: #f2f7ef;
+  height: auto;
+  width: auto;
+  margin: 5px;
+}
+.documentary h1
+{
+  text-align: center;
+  font-size: 50px;
+  font-family: var(--fontBebas);
+  color: var(--metricCardpColor);
+  text-transform: capitalize;
+}
+.doc iframe
+{
+  border-radius: 7px;
+}
