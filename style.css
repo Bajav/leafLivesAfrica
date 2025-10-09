@@ -1044,7 +1044,25 @@ ul {
   color: var(--metricCardpColor);
   text-transform: capitalize;
 }
-.doc iframe
+.documentary h4
 {
-  border-radius: 7px;
+    text-align: start;
+  font-size: 15px;
+  font-family: var(--fontPoppins);
+  color: var(--metricCardpColor);
+  text-transform: capitalize;
+}
+.doc
+{
+  /* width: 1000px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100;
+}
+.video
+{
+    border-radius: 7px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
 }
